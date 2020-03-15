@@ -17,9 +17,11 @@
         <%= f.password_field :password, class: 'form-control' %>
       </div>
 
-      <%= f.submit 'Log in', class: 'btn btn-primary btn-block' %>
+      <%= f.submit 'ログイン', class: 'btn btn-primary btn-block' %>
     <% end %>
-
-    <p>未登録者 <%= link_to 'Sign up now!', signup_path %></p>
+    
+    <div class="text-center">
+      <p>未登録者 <%= link_to '新規登録ページへ移動', signup_path %></p>
+    </div>
   </div>
 </div>
